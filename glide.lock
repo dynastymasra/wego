@@ -1,12 +1,31 @@
 hash: 3e204e73803fbf1ab2f5a0ef412ec6fca31d2cad972ed4c410e78528835c6ce8
-updated: 2017-11-14T15:59:38.391621+07:00
+updated: 2017-11-14T18:37:53.404615+07:00
 imports:
 - name: github.com/cenkalti/backoff
   version: 309aa717adbf351e92864cbedf9cca0b769a4b5a
+- name: github.com/moul/http2curl
+  version: 9ac6cf4d929b2fa8fd2d2e6dec5bb0feb4f4911d
 - name: github.com/parnurzeal/gorequest
   version: 8e3aed27fe49f7fdc765dad067845f600fc984e8
+- name: github.com/pkg/errors
+  version: f15c970de5b76fac0b59abb32d62c17cc7bed265
+- name: golang.org/x/net
+  version: a337091b0525af65de94df2eb7e98bd9962dcbe2
+  subpackages:
+  - context
+  - publicsuffix
 testImports:
+- name: github.com/davecgh/go-spew
+  version: 6d212800a42e8ab5c146b8ace3490ee17e5225f9
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: d8ed2627bdf02c080bf22230dbb337003b7aba2d
+  subpackages:
+  - difflib
 - name: github.com/stretchr/testify
   version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+  subpackages:
+  - assert
 - name: gopkg.in/h2non/gock.v1
   version: 84d599244901620fb3eb96473eb9e50619f69b47
