@@ -1,0 +1,12 @@
+hash: 3e204e73803fbf1ab2f5a0ef412ec6fca31d2cad972ed4c410e78528835c6ce8
+updated: 2017-11-14T15:59:38.391621+07:00
+imports:
+- name: github.com/cenkalti/backoff
+  version: 309aa717adbf351e92864cbedf9cca0b769a4b5a
+- name: github.com/parnurzeal/gorequest
+  version: 8e3aed27fe49f7fdc765dad067845f600fc984e8
+testImports:
+- name: github.com/stretchr/testify
+  version: 69483b4bd14f5845b5a1e55bca19e954e827f1d0
+- name: gopkg.in/h2non/gock.v1
+  version: 84d599244901620fb3eb96473eb9e50619f69b47
