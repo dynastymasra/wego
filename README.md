@@ -1,5 +1,7 @@
 # Wego
 
+[![Build Status](https://travis-ci.org/dynastymasra/wego.svg?branch=master)](https://travis-ci.org/dynastymasra/wego)
+[![Coverage Status](https://coveralls.io/repos/github/dynastymasra/wego/badge.svg?branch=master)](https://coveralls.io/github/dynastymasra/wego?branch=master)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 WeChat GO(Golang) SDK, Can use back off retry request to WeChat API
